@@ -51,8 +51,8 @@ class Login extends Component {
             <Image src={logo} width="400" height="400" rounded />            
             <Formik
                 initialValues={{
-                    email: 'rishal@gmail.com',
-                    password: 'rishal@Test'
+                    email: '',
+                    password: ''
                     
                     }}
                 validationSchema={Yup.object().shape({
