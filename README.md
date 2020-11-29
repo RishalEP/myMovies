@@ -5,7 +5,7 @@
     visit: localhost:3000/myMovies
 # Get the users from src/cofig/clientconfig (email: admin@gmail.com Password:admin@Test)
 # Enter email and password to login
-# Leads to a home page /app - (not designed)
+# Leads to a home page /app 
 # Header has username , 3 tabs and logout button
 # Header tabs 
             1. MyMovies - movies in watchlist
