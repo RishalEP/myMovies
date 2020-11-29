@@ -1,0 +1,48 @@
+{
+  "homepage": "https://RishalEP.github.io/myMovies",
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "@sweetalert/with-react": "^0.1.1",
+    "axios": "^0.16.2",
+    "bootstrap": "^4.5.3",
+    "formik": "^2.2.5",
+    "gh-pages": "^3.1.0",
+    "mdbreact": "^4.27.0",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
+    "react-country-region-selector": "^3.0.1",
+    "react-dom": "^16.14.0",
+    "react-phone-input-2": "^2.13.9",
+    "react-phone-input-textfield-filled": "^1.0.2",
+    "react-redux": "^7.2.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^4.0.1",
+    "redux": "^4.0.5",
+    "sweetalert": "^2.1.2",
+    "yup": "^0.31.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
