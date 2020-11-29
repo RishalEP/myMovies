@@ -15,7 +15,7 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <BrowserRouter>
+        <BrowserRouter basename="/myMovies">
         <Switch>
           <Route exact path='/' component={Login} /> 
           <ProtectedRoute path='/app' component={Home} />
