@@ -12,3 +12,4 @@
             2. MyAccount - to edit the account info(not storing anywhere)
             3. SearchMovies - Search for movies and add/remove from watchlist
 
+# Add new users in src/confg/clientconfig file if needed
