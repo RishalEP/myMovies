@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = "http://www.omdbapi.com"
+const url = "//www.omdbapi.com"
 
 const getCall = async(query) => {
     const currenturl = url + "/?"+query+"&apikey=c7256108";
