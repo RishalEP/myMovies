@@ -73,7 +73,8 @@ class Search extends Component{
 
     render(){
         return (
-            <Container >
+            <Container style={{ display:"flex","flex-direction": "row", "flex-wrap": "wrap", justifyContent: "center",
+            alignItems: "center"}}>
             <Formik
                 initialValues={{
                     movie: '',
